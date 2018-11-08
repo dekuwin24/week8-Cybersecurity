@@ -29,20 +29,9 @@ GREEN Targets
     - When we read our feedback after filling up the contact setion, it get captures the name we enter and displays our name and email
    -![](week8G2.gif)
 5. Insecure Direct Object Reference 
-   -![](week8E.gif)
+   -![](week8R.gif)
  1.Cross-Site Request Forgery
   -![](week8R1.gif)
-
-## Assets
-
-List any additional assets, such as scripts or files
-
-## Resources
-
-- [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
-- [WordPress Developer Reference](https://developer.wordpress.org/reference/)
-
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
