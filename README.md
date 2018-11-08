@@ -1,5 +1,5 @@
-# week8-Cybersecurity
-
+## week8-Cybersecurity
+Dekuwin E. I. Kogda
 
 # Project 8 - Pentesting Live Targets
 
@@ -7,51 +7,31 @@ Time spent: **7** hours spent in total
 
 > Objective: Identify which two vulnerabilities the blue target has, which two vulnerabilities the green target has, and which two vulnerabilities the red target has
 
-## Pentesting Report
-BLEU Target
+# Pentesting Report
+BLEU Targets
 1.  SQL Injection (SQLi)
+  -[]Summary: We get no error on both red and green but we an error on the blue
+  -![](week8B.gif)
+  
+2. Session Hijacking/Fixation
+  -[]Summary: We login on one browser and also on another one at the same time, which the user information can be stolen
+  -![](week8B2.gif)
 
-  ![](week8B.gif)
+GREEN Targets
+3. Username Enumeration
+  - [ ] Summary: 
+      -When Username is correct and the password is incorrect we get error with value="faillure" as result
+      -When Username is correct and the password is blanck we get a message "Password cannot be blank"
+  -![](week8G.gif)
 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+4. Cross-Site Scripting:
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - When we read our feedback after filling up the contact setion, it get captures the name we enter and displays our name and email
+   -![](week8G2.gif)
+5. Insecure Direct Object Reference 
+   -![](week8E.gif)
+ 1.Cross-Site Request Forgery
+  -![](week8R1.gif)
 
 ## Assets
 
